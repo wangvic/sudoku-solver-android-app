@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         solveBTN.setOnClickListener(this);
     }
 
-    public void solve(View view) {
+    public void solve() {
         if (solveBTN.getText().toString().equals(getString(R.string.Solve))) {
             solveBTN.setText(R.string.Clear);
 
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (id == R.id.button9) {
             gameBoardSolver.setNumberPos(9);
         } else if (id == R.id.solveButton) {
-            solve(view);
+            solve();
         }
         gameBoard.invalidate();
     }

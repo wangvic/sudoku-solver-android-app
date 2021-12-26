@@ -30,12 +30,11 @@
         custom:layout_constraintTop_toBottomOf="@+id/SudokuBoard">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button1"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="BTNOnePress"
             android:text="@string/One"
             android:textColor="@android:color/black"
             android:textSize="24sp" />
@@ -46,7 +45,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="BTNTwoPress"
             android:text="@string/Two"
             android:textColor="@android:color/black"
             android:textSize="24sp" />
@@ -57,7 +55,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="BTNThreePress"
             android:text="@string/Three"
             android:textColor="@android:color/black"
             android:textSize="24sp" />
@@ -68,7 +65,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="BTNFourPress"
             android:text="@string/Four"
             android:textColor="@android:color/black"
             android:textSize="24sp" />
@@ -79,7 +75,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="BTNFivePress"
             android:text="@string/Five"
             android:textColor="@android:color/black"
             android:textSize="24sp" />
@@ -90,7 +85,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="BTNSixPress"
             android:text="@string/Six"
             android:textColor="@android:color/black"
             android:textSize="24sp" />
@@ -101,7 +95,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="BTNSevenPress"
             android:text="@string/Seven"
             android:textColor="@android:color/black"
             android:textSize="24sp" />
@@ -112,7 +105,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="BTNEightPress"
             android:text="@string/Eight"
             android:textColor="@android:color/black"
             android:textSize="24sp" />
@@ -123,7 +115,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="BTNNinePress"
             android:text="@string/Nine"
             android:textColor="@android:color/black"
             android:textSize="24sp" />
@@ -134,7 +125,6 @@
         android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:background="@drawable/solve_btn"
-        android:onClick="solve"
         android:text="@string/Solve"
         android:textColor="@color/black"
         android:textSize="18sp"
